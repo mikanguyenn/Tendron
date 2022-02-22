@@ -22,13 +22,13 @@ public class Tendril
     
     if(myNumSegments >= 50){
       stroke(#77DD77);
-      strokeWeight(7);
+      strokeWeight(6);
     }else if(myNumSegments >= 10){
       stroke(#F4B5C7);
-      strokeWeight(4);
+      strokeWeight(3);
     }else{ 
       stroke(#F26B8A);
-      strokeWeight(5);
+      strokeWeight(6);
     }
     
     startX = myX;
